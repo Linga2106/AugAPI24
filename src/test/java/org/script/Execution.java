@@ -18,7 +18,10 @@ public class Execution extends GlobalBase{
 		//Get Driver
 		base.getDriver(base.readExcel(3, 0));
 		base.windowMx();
+		System.out.println("Hello");
+		System.out.println("Linga Raja");
 		System.out.println("hii");
+
 		//get URL
 		base.url(base.readExcel(2, 1));
 		
