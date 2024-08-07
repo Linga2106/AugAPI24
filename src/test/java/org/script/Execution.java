@@ -18,7 +18,7 @@ public class Execution extends GlobalBase{
 		//Get Driver
 		base.getDriver(base.readExcel(3, 0));
 		base.windowMx();
-		
+		System.out.println("hii");
 		//get URL
 		base.url(base.readExcel(2, 1));
 		
@@ -33,7 +33,7 @@ public class Execution extends GlobalBase{
 		
 		//base.screenshot("LoginPAge");
 		base.load();
-		
+		System.out.println("yoga");
 		//base.writeExcel(0, 8, "LoginPage Screenshot Succeeded");
 		
 		LoginPage loginpage=new LoginPage();
