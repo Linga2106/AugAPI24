@@ -20,6 +20,8 @@ public class Execution extends GlobalBase{
 		base.windowMx();
 		System.out.println("Hello");
 		System.out.println("Linga Raja");
+		System.out.println("hii");
+
 		//get URL
 		base.url(base.readExcel(2, 1));
 		
@@ -34,7 +36,7 @@ public class Execution extends GlobalBase{
 		
 		//base.screenshot("LoginPAge");
 		base.load();
-		
+		System.out.println("yoga");
 		//base.writeExcel(0, 8, "LoginPage Screenshot Succeeded");
 		
 		LoginPage loginpage=new LoginPage();
